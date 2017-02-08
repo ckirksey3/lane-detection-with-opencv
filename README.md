@@ -3,7 +3,7 @@
 
 ![Image of Processed Lane](result.png)
 
-This Udacity project uses computer vision to label the lanes in a driving video, calculate the curvature of the lane, and estimate the distance of the vehicle from the center of the lane. The rest of the project writeup can be accessed in [PDF](P1.pdf) or the the [Jupyter notebook.](P1.ipynb)
+This Udacity project uses computer vision to label the lanes in a driving video, calculate the curvature of the lane, and estimate the distance of the vehicle from the center of the lane. The rest of the project writeup can be accessed via [PDF](P1.pdf) or [Jupyter notebook.](P1.ipynb)
 
 Steps
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
