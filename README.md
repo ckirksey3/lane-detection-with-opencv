@@ -37,6 +37,8 @@ jupyter notebook
 To see the code in practice, execute each cell in succession by pressing shift + enter.
 You can also run the whole notebook in a single step by clicking on the menu Cell -> Run All.
 
+---
+
 ## Project Walkthrough
 
 
@@ -60,7 +62,7 @@ Next we try taking the maginute of the Sobel operator in both the x and y direct
 However, there are still some thick lines in the middle that could confuse our lane detector. You can also notice that both gradients fail to detect the yellow lane at all. We'll need to fix this if we want to be able to drive anywhere with yellow lanes (aka all most everywhere).
 
 ### Gradient with direction
-![Image](data_analysis/threshold_gradient_dir.png?raw=true "")
+![Image](resources/threshold_gradient_dir.png?raw=true "")
 
 In order to detect those yellow lanes, we can compute the direction of the gradient as the arctangent of the gradient in the y direction divided by the gradient in the x direction. This is a much noisier gradient than our magnitude gradient, but it accurately captures the identical direction of the pixels from the yellow lane.
 
